@@ -17,7 +17,7 @@ app.set('view engine','ejs');
 app.use(bodyParser.urlencoded({extended:true}));
 
 
-//adding express session
+//ADDING EXPRESS SESSION
 app.use(require("express-session")({
     secret: "github is the best code hosting place",
     resave:false,
